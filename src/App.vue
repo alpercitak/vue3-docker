@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App with Docker" />
+  <HelloWorld msg="Welcome to Your Vue.js (3) + TypeScript App with Docker" />
 </template>
 
 <script lang="ts">
