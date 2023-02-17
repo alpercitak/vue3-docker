@@ -1,10 +1,12 @@
 FROM node:18-alpine AS build
 
 WORKDIR /app
-COPY . .
 
 RUN npm i -g pnpm
+COPY package.json pnpm-lock.yaml ./
 RUN pnpm install
+
+COPY . .
 RUN pnpm run build
 
 FROM nginx:1.18-alpine AS deploy
