@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
       target: deploy
     ports:
-      - 8080:80
+      - 3000:80

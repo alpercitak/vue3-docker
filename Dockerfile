@@ -10,7 +10,7 @@ COPY . .
 RUN pnpm i --offline
 RUN pnpm run build
 
-FROM nginx:1.23.3-alpine AS deploy
+FROM nginx:1.23.3-alpine-slim AS deploy
 
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
