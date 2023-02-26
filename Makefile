@@ -4,11 +4,5 @@ serve:
 build:
 	pnpm run build
 
-docker-build:
-	docker-compose build
-
-docker-up:
-	docker-compose up
-
-docker-serve:
+deploy:
 	docker-compose up --build
