@@ -3,8 +3,6 @@ services:
   app:
     image: vue3-docker
     build:
-      context: .
-      dockerfile: Dockerfile
       target: deploy
     ports:
       - 3000:80

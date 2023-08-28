@@ -8,7 +8,7 @@ RUN pnpm fetch
 
 COPY . .
 RUN pnpm i --offline
-RUN pnpm run build
+RUN pnpm build
 
 FROM nginx:1.23.3-alpine-slim AS deploy
 
