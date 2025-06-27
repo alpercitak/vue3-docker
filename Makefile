@@ -5,4 +5,4 @@ build:
 	pnpm run build
 
 deploy:
-	docker-compose up --remove-orphans --build
+	COMPOSE_BAKE=true docker-compose up --remove-orphans --build

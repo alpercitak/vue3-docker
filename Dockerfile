@@ -1,4 +1,4 @@
-FROM node:18-alpine AS build
+FROM node:22-alpine AS build
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ COPY . .
 RUN pnpm i --offline
 RUN pnpm build
 
-FROM nginx:1.23.3-alpine-slim AS deploy
+FROM nginx:1.29.0-alpine-slim AS deploy
 
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
