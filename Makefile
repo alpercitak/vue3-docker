@@ -1,8 +1,8 @@
 dev:
-	pnpm run dev
+	pnpm dev
 
 build:
-	pnpm run build
+	pnpm build
 
 deploy:
 	COMPOSE_BAKE=true docker-compose up --remove-orphans --build

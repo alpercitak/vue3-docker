@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="increase()">Increase</button>
+    <button @click="increase">Increase</button>
   </div>
 </template>
 
