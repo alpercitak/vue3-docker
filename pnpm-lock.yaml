@@ -23,7 +23,7 @@ importers:
         version: 1.2.2(@rsbuild/core@1.7.2)(vue@3.5.26)
       '@types/node':
         specifier: ^25.0.0
-        version: 25.0.6
+        version: 25.0.7
 
 packages:
 
@@ -182,8 +182,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@25.0.6':
-    resolution: {integrity: sha512-NNu0sjyNxpoiW3YuVFfNz7mxSQ+S4X2G28uqg2s+CzoqoQjLPsWSbsFFyztIAqt2vb8kfEAsJNepMGPTxFDx3Q==}
+  '@types/node@25.0.7':
+    resolution: {integrity: sha512-C/er7DlIZgRJO7WtTdYovjIFzGsz0I95UlMyR9anTb4aCpBSRWe5Jc1/RvLKUfzmOxHPGjSE5+63HgLtndxU4w==}
 
   '@vue/compiler-core@3.5.26':
     resolution: {integrity: sha512-vXyI5GMfuoBCnv5ucIT7jhHKl55Y477yxP6fc4eUswjP8FG3FFVFd41eNDArR+Uk3QKn2Z85NavjaxLxOC19/w==}
@@ -783,7 +783,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@25.0.6':
+  '@types/node@25.0.7':
     dependencies:
       undici-types: 7.16.0
 
@@ -1050,7 +1050,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 25.0.6
+      '@types/node': 25.0.7
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
