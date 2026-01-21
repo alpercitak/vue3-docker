@@ -9,7 +9,7 @@ export const useCounterStore = defineStore('counter-store', () => {
   const decrease = () => count.value--;
   const increase = () => count.value++;
 
-  watch(count, () => localStorage.setItem(localStorageKey, String(count.value)));
+  watch(count, (newVal) => localStorage.setItem(localStorageKey, String(newVal)));
 
   return {
     count,
