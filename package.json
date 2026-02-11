@@ -17,5 +17,5 @@
     "@rsbuild/plugin-vue": "^1.2.0",
     "@types/node": "^25.0.0"
   },
-  "packageManager": "pnpm@10.29.2"
+  "packageManager": "pnpm@10.29.3"
 }
